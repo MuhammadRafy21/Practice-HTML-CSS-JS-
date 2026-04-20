@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Result Management</h2>
+    <div class="initial-inputs">
+    
+        <input type="text" id="searchInput" placeholder="Search by Student ID">
+        <button id="searchBtn">Search</button>
+         <input type="text" id="subjectInput" placeholder="Subject Name">
+        <button id="addSubjectBtn"> <a href="subject.html">Add Subject</a></button>
+    </div>
+    
+    <div class="form-container">
+        <button id="addBtn" onclick="location.href='student.html'">Add Record</button>
+    </div>
+
+    <table id="marksTable">
+        <thead>
+            <tr id="unique">
+                
+                
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+             
+            </tbody>
+    </table>
+</div>
+
+<script src="third.js"></script>
+</body>
+</html>
